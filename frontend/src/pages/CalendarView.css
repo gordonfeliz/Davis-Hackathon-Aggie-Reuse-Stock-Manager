@@ -1,0 +1,88 @@
+.calendar-view {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-content: center;
+    width: 100%;
+    margin: 0;
+    padding-bottom: 12px;
+
+}
+
+.month-picker {
+    color: white;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+#left-month-button {
+    margin-right: 24px;
+    font-weight: 100;
+}
+#right-month-button {
+    margin-left: 24px;
+    font-weight: 100;
+}
+
+.test {
+    margin-top: 4px;
+    margin-bottom: 5px;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 160px;
+    background-color: #10074A;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.button {
+    margin-top: 12px;
+    margin-right: 14px;
+    padding-left: 14px;
+    display: flex;
+    align-items: center;
+    border-radius: 35px;
+    width: 150px;
+    height: 48px;
+
+    background: #E6E1B8;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 17px;
+    text-align: right;
+}
+
+.button > img {
+    margin-left: 8px;
+    width: 23px;
+    height: 23px;
+}
+.calendar-with-button {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+}
+
+.category-list {
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+	grid-template-rows: repeat(1, 1fr);
+	grid-auto-flow: row;
+}
+
+.category-column > p {
+	margin: 21.28px 0;
+    margin-bottom: 26px;
+}
+
+.week-range {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	/* margin-bottom: 24px; */
+}
+
+.date-column {
+	padding: 0 20px;
+}

@@ -1,0 +1,42 @@
+.date-container {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.date-container > h3 {
+	margin: 0;
+	color: white;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.category {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	/* margin: 16px; */
+}
+
+.category2 {
+	/* margin:0 */
+	height: 24px;
+	margin-bottom: 26px;
+}
+
+.category2:hover {
+	transform: scale(1.2);
+	cursor: pointer;
+	opacity: 0.6;
+}
+
+.category > input {
+	text-align: center;
+	border-radius: 12px;
+	height: 24px;
+	width: 36px;
+	margin-top: 20px;
+	/* padding: 10px; */
+}
